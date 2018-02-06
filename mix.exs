@@ -11,7 +11,8 @@ defmodule Namerx.MixProject do
       elixir: "~> 1.0",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
-      aliases: aliases()
+      aliases: aliases(),
+      source_url: "https://github.com/dabaer/namerx"
     ]
   end
 
